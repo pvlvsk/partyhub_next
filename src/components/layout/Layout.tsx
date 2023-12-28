@@ -9,7 +9,7 @@ const Layout: FC<PropsWithChildren<{ title: string }>> = ({
   return (
     <div className="">
       <Meta title={title}>
-        <Header />
+        {/* <Header /> */}
         {children}
       </Meta>
     </div>

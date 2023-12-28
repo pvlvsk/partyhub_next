@@ -1,5 +1,6 @@
 import Layout from "@/components/layout/Layout";
 import dynamic from "next/dynamic";
+import styles from "./Home.module.css";
 
 const DynamicFooter = dynamic(
   () => import("@/components/DynamicFooter/DynamicFooter"),
@@ -11,9 +12,9 @@ const DynamicFooter = dynamic(
 export const Home = () => {
   return (
     <Layout title="Home">
-      <div>Home</div>
+      <div className={styles.main}>partyhub.ru</div>
 
-      <DynamicFooter />
+      {/* <DynamicFooter /> */}
     </Layout>
   );
 };
