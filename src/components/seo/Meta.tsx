@@ -8,7 +8,7 @@ const Meta: FC<PropsWithChildren<{ title: string }>> = ({
   return (
     <>
       <Head>
-        <title>{title} | My Site Name</title>
+        <title>PartyHub | Агрегатор ивентов</title>
       </Head>
       {children}
     </>
